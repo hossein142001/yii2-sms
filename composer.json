@@ -1,0 +1,23 @@
+{
+    "name": "hossein142001/yii2-sms",
+    "description": "Sms Yii 2 ",
+    "keywords": ["yii", "yii2", "sms"],
+    "license": "MIT",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "hossein abaei",
+            "email": "hossein142001@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hossein142001\\smsc\\": "src/"
+        }
+    }
+}
